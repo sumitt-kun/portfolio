@@ -45,6 +45,24 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <div className="mt-4">
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-4 text-blue-500 hover:underline"
+                >
+                  Live Project
+                </a>
+                <a
+                  href={project.codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  Code Repository
+                </a>
+              </div>
             </motion.div>
           </div>
         ))}

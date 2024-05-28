@@ -46,6 +46,8 @@ export const PROJECTS = [
       "Mongoose",
       "Tailwind CSS",
     ],
+    liveLink: "https://mega-project-mu.vercel.app/",
+    codeLink: "https://github.com/sumitt-kun/mega_project",
   },
   {
     title: "BitWebApp",
@@ -53,6 +55,8 @@ export const PROJECTS = [
     description:
       "A web application for the CSE department of Birla Institute of Technology, Mesra. Users can create and update their profiles, record achievements, and administrators can access and manage this data.",
     technologies: ["React", "Node.js", "MongoDB", "Mongoose", "Tailwind CSS"],
+    liveLink: "https://bit-web-app-24.vercel.app/",
+    codeLink: "https://github.com/BitWebApp/BitWebApp-24",
   },
   {
     title: "Portfolio Website",
@@ -60,6 +64,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    liveLink: "https://www.sumitkun.tech/",
+    codeLink: "https://github.com/sumitt-kun/portfolio",
   },
   {
     title: "UsePopcorn",
@@ -67,6 +73,8 @@ export const PROJECTS = [
     description:
       "An application that fetches movie data from the OMDb API. Users can search for movies, add them to a watchlist, and rate them.",
     technologies: ["React", "Tailwind CSS"],
+    liveLink: "https://usepopcorn-rust-eta.vercel.app/",
+    codeLink: "https://github.com/sumitt-kun/usepopcorn",
   },
 ];
 
