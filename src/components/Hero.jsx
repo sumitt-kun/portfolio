@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/sumitpic.jpg";
+import resumeFile from "/src/assets/resume.pdf"; // Import your resume file
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -41,6 +42,16 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.a
+              href={resumeFile}
+              download="Sumit_Kumar_Resume.pdf"
+              className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg"
+              variants={container(1.5)}
+              initial="hidden"
+              animate="visible"
+            >
+              Download Resume
+            </motion.a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
