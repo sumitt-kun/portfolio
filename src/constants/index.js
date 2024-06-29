@@ -34,30 +34,31 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "ClubConnect",
-    image: project1,
-    description:
-      "A project designed for college clubs to add news in the newsroom and recruit students. It includes features for posting news updates, managing events, and handling student applications.",
-    technologies: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Express.js",
-      "Mongoose",
-      "Tailwind CSS",
-    ],
-    liveLink: "https://mega-project-mu.vercel.app/",
-    codeLink: "https://github.com/sumitt-kun/mega_project",
-  },
-  {
     title: "BitWebApp",
     image: project2,
     description:
       "A web application for the CSE department of Birla Institute of Technology, Mesra. Users can create and update their profiles, record achievements, and administrators can access and manage this data.",
-    technologies: ["React", "Node.js", "MongoDB", "Mongoose", "Tailwind CSS"],
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Tailwind CSS",
+      "Express.js",
+    ],
     liveLink: "https://bit-web-app-24.vercel.app/",
     codeLink: "https://github.com/BitWebApp/BitWebApp-24",
   },
+  {
+    title: "ClubConnect",
+    image: project1,
+    description:
+      "A project designed for college clubs to add news in the newsroom and recruit students. It includes features for posting news updates, managing events, and handling student applications.",
+    technologies: ["React", "Node.js", "Firebase", "Tailwind CSS"],
+    liveLink: "https://mega-project-mu.vercel.app/",
+    codeLink: "https://github.com/sumitt-kun/mega_project",
+  },
+
   {
     title: "Portfolio Website",
     image: project3,
